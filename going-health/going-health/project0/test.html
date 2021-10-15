@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+    <style type="text/css">
+        .swiper-container {
+            width:100%;
+            height:100vh;
+        }
+        .slide-left{
+            float: left;
+            background-color: #fff;
+            position: relative;
+            margin-top: 100px;
+            width: 640px;
+            height: 100%;
+            padding: 100px;
+            z-index: 99;
+        }
+        .slide-left h6{
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .slide-left h1{
+            font-size: 50px;
+            font-weight: 700;
+            color: #272643;
+        }
+        .slide-left p{
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .slide-right{
+            float: left;
+            margin-left: -88px;
+            width: calc(100% - 640px);
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="slider-warp">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slide-left">
+                        <h6 class="element">01</h6>
+                        <h1>welcome</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laborum quae, sit dolore
+                            incidunt at quia voluptatibus odit ad eaque obcaecati asperiores, enim saepe fugiat amet sed
+                            expedita id numquam?</p>
+                    </div>
+                    <div class="slide-right">
+                        <img src="img/p5.PNG" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-left">
+                        <h6 class="element">02</h6>
+                        <h1>welcome</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laborum quae, sit dolore
+                            incidunt at quia voluptatibus odit ad eaque obcaecati asperiores, enim saepe fugiat amet sed
+                            expedita id numquam?</p>
+                    </div>
+                    <div class="slide-right">
+                        <img src="img/p4.PNG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-left">
+                        <h6 class="element">03</h6>
+                        <h1>welcome</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laborum quae, sit dolore
+                            incidunt at quia voluptatibus odit ad eaque obcaecati asperiores, enim saepe fugiat amet sed
+                            expedita id numquam?</p>
+                    </div>
+                    <div class="slide-right">
+                        <img src="img/p3.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function(){
+            const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  loop: true,
+  effect:'fade',
+  speed : 1500,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+        })
+    </script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+
+    <!-- <div id="fullpage">
+        <section class="section s1">
+            <h1>Home Decoration</h1>
+        </section>
+        <section class="section s2">
+            <h1>Different Style</h1>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aliquam doloribus. Ad in explicabo temporibus modi quis sapiente rem autem ex, iure saepe a quaerat ullam laborum aspernatur omnis vero?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quibusdam, quisquam a tempore repellendus excepturi ad placeat aut. Neque, enim. Aut ipsam modi ipsum voluptatum saepe fugit omnis velit cumque.</p>
+            </div>
+            <img src="img/p4.PNG" alt="">
+        </section>
+        <section class="section s3">
+            <h1>other</h1>
+        </section>
+    </div> -->
+
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="fullpage.min.js"></script>
+    <script src="app.js"></script> -->
+
+</body>
+
+</html>

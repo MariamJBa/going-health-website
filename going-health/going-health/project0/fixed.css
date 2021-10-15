@@ -1,0 +1,824 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'bignoodletitling';
+    color: #222;
+    scroll-behavior: smooth;
+}
+/* home-page */
+.main-section{
+  padding: 0px 0px;
+}
+.navbar{
+    padding: .8rem;
+}
+a.a-logo {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: bignoodletitling;
+  color:#fff;
+  letter-spacing: 5px;
+  margin-left: 15px;
+}
+a.a-logo:hover{
+  color: #000;
+}
+.logg{
+  background-color: #000;
+}
+.logg a{
+  color: #fff;
+  font-size: 19px;
+}
+.bg-light{
+  background-color: #298d74 !important;
+  opacity: 0.75;
+}
+.navbar-nav li {
+    padding-right:20px ;
+}
+ul li a{
+  text-transform: uppercase;
+}
+.nav-link{
+  font-size: 1.1em !important ;
+}
+.nav-link:hover{
+  color: #000 !important;
+  border-bottom: 3px solid #000;
+  margin-bottom: -2px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+   color: #fff; 
+}
+.backgroundimg{
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.backgroundimg h1{
+  font-size: 60px;
+  font-weight: 100;
+  padding-top: 140px;
+  margin-bottom: 15px;
+  line-height: 90px;
+  color: #232d60;
+  letter-spacing: 3px;
+}
+.backgroundimg h5{
+  font-size: 20px;
+  padding-left: 30px;
+  color: #232d60;
+  letter-spacing: 2.5px;
+}
+.backgroundimg a{
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: 70px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  border-radius: 20px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #298d74 ;
+  color:#232d60;
+}
+.backgroundimg a:hover{
+  background-color: #298d74;
+  color:#fff;
+}
+.jumbotron {
+  width: 100%;
+  height:150vh;
+}
+#about{
+  height: 650px;
+  background-color: #298d74;
+  color: #fff;
+  margin-bottom: 120px;
+}
+.jumbotron h1{
+padding-top: 120px;
+letter-spacing: 2px;
+word-spacing: 5px;
+font-size: 45px;
+font-weight:bold;
+}
+.jumbotron h4{
+  padding-top: 35px;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight:bold;
+}
+.jumbotron p {
+    line-height: 33px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    width: 90%;
+    padding-left: 200px;
+    font-weight:lighter;
+}
+.img-fix{
+  width: 92%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.img-fix:hover{
+  transform: scale(1.03); 
+}
+.home-img-sec img{
+  opacity: 0.85;
+  width: 92%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.home-img-sec img:hover{
+  opacity: 1;
+  transform: scale(1.03); 
+}
+h3.pad{
+  padding-top: 50px;
+  letter-spacing: 0.5px;
+  word-spacing: 2.5px;
+}
+/* healthy-lifestyle */
+#Water-Rich p{
+  font-size: 17px;
+
+}
+#Water-Rich img{
+  height: 450px;
+  width: 600px;
+}
+
+/* healthy-lifestyle1 */
+.b-img{
+  max-width: 100%;
+  background-image: url(https://www.thehivegym.uk/wp-content/uploads/2017/07/bmi-background-2048px.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px 0px ;
+  padding: 0px 0px ;
+}
+.b-img h1,h6{
+  color: #fff;
+}
+.b-img strong{
+  font-size: 25px;
+  color:  #e3e5ff ;
+}
+.b-img h6{
+  font-size: 18px;
+  padding: 10px 200px;
+}
+footer{
+  background-color: #298d74;
+  color: #fff;
+  padding-top: 50px;
+  margin-top: 80px;
+
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 15px;
+}
+
+/* About-page */
+section{
+  padding: 60px 0px;
+}
+.delay{
+  animation-duration: 3s;
+  animation-delay: .5s;
+}
+.delay1{
+  animation-duration: 3s;
+  animation-delay: 3.5s;
+}
+.delay2{
+  animation-duration: 3s;
+  animation-delay: 7s;
+}
+
+.section-heading h1{
+  font-family: initial;
+  font-weight:500;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+.about-page p {
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-weight:lighter;
+}
+.img-section img{
+  opacity: 0.85;
+  height:200px;
+  width: 93%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+  padding-left: 21px;
+}
+.img-section img:hover{
+  opacity: 1;
+  transform: scale(1.03); 
+}
+/* sing up */
+.bg1{
+  background: url(img/photo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  padding-top: 60px;
+}
+#reg{
+  max-width: 700px;
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75) ;
+  -moz-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75) ;
+  box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75) ;
+}
+#reg .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+#reg form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom:5px ;
+}
+.user-details .input-box input {
+  height:45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+/* form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+form .gender-details .category{
+  display: flex;
+  width: 30%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+.gender-details .category label{
+  display: flex;
+}
+.gender-details .category .dot{
+  height: 20px;
+  width: 20px;
+  background:darkgray;
+  border-radius: 50%;
+  margin-right: 10px;
+  border:5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category .one,
+#dot-2:checked ~ .category .tow {
+  border-color: #9d9d9d;
+  background: #9b0ad4;
+}
+form input[type="radio"]{
+  display: none;
+} */
+form .button{
+  height:45px ;
+  margin: 45px 0;
+}
+form .button input{
+  height:100% ;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  background:linear-gradient(135deg ,#71b7e6, #9b59b6) ;
+}
+form .button input:hover{
+  background:linear-gradient(135deg ,#71b7e6, #9b59b6) ;
+}
+/* log-in page  */
+.bg{
+  background: url(img/healthy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.form-conatiner{
+  border: 0 solid #000;
+  padding: 50px 60px;
+  margin-top: 10vh;
+  -webkit-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75) ;
+  -moz-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75) ;
+  box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75) ;
+}
+.form-conatiner h1{
+  font-size: 67px;
+  color:#298d74;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  font-weight:800;
+}
+.form-conatiner a {
+  margin-left: 35px;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.form-conatiner a:hover{
+  color:#298d74;
+}
+.form-control{
+  letter-spacing: 1.3px;
+    font-size: 19px;
+}
+.image img {
+  background: center;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  
+  }
+@media (max-width: 768px) {
+   /* home page */
+   .backgroundimg{
+    width:100%;
+    height:520px;
+  }
+  .backgroundimg h1{
+    font-size: 30px;
+    font-weight: 30;
+    padding-top: 125px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    line-height: 60px;
+    color: #232d60;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+  .backgroundimg h5{
+    font-size: 18px;
+    padding-left: 30px;
+    color: #232d60;
+    letter-spacing: 2.5px;
+  }
+  .backgroundimg a{
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 70px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    border-radius: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #298d74 ;
+    color:#232d60;
+  }
+  .jumbotron h1{
+    padding-top: 10px;
+    font-size: 44px;
+    }
+  .jumbotron p {
+    line-height: 33px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    width: 100%;
+    padding-left:0px;
+    font-weight:lighter;
+}
+.img-fix{
+  height: 250px;
+  padding-top: 15px;
+}
+.h-3{
+  font-size: 22px;
+}
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.form-conatiner a {
+  margin-left: 70px;
+}
+
+  
+}
+@media (max-width: 576px) {
+   /* home-page */
+  .navbar-nav li :hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-bottom:none;
+  } 
+  .backgroundimg h1{
+    font-size: 25px;
+    font-weight: 30;
+    padding-top: 150px;
+    padding-left:0px;
+    margin-bottom: 15px;
+    line-height: 60px;
+    color: #232d60;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+  .backgroundimg h5{
+    font-size: 18px;
+    padding-left: 10px;
+    color: #232d60;
+    letter-spacing: 2.5px;
+  }
+  .backgroundimg a{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 35px;
+    margin-top: 70px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    border-radius: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #298d74 ;
+    color:#232d60;
+  }
+  .b-img h6{
+    padding: 10px 15px;
+  }
+  #Water-Rich img {
+    height:auto;
+    max-width: 100%;
+}
+  .carousel-inner img{
+    width: 100%;
+    height:350px;
+}
+.carousel-caption h1 {
+  font-size: 28px;
+  color: #000;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #0232b6;
+  font-weight:400;
+  padding-bottom: 20px;
+}
+.carousel-caption h5{
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #0232b6;
+}
+.b1{
+  width: 40%;
+  font-size: small;
+}
+.jumbotron {
+  width: 100%;
+  margin: 50px auto;
+  height: 950px;
+}
+.jumbotron h1 {
+  font-size: 35px;
+}
+.img-fix{
+  width: 100%;
+}
+.h-3{
+  font-size: 25px;
+}
+  .meals-showcase {
+    width:100%;
+  }
+  .meal-photo img {
+    opacity: 0.85;
+    width: 75%;
+    height:110px;
+  }
+  .meals-showcase li {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    /* about-page */
+.section-heading h1 {
+  font-size: 35px;
+  line-height: inherit;
+}
+    /* sing-up */
+    #reg {
+      max-width:100%;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width:90%;
+  }
+  form .user-details .input-box .input{
+      width: 100%;
+  }
+  #reg form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+  }
+  .gender-details .category label{
+   margin-left: 20px;
+  }
+   /* log-in page */
+.bg{
+  height:120vh;
+}
+.form-conatiner h1{
+  font-size: 57px;
+  color:#298d74;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  font-weight:800;
+}
+.form-control{
+  letter-spacing: 1px;
+    font-size: 15px;
+}
+.form-check-label{
+  color: #000;
+  font-weight: 500;
+}
+.form-conatiner a {
+  margin-left: 50px;
+  font-size:12px ;
+}
+}
+@media (max-width: 360px){
+  /* home page */
+  .backgroundimg h1{
+    font-size: 23px;
+    font-weight: 30;
+    padding-top: 150px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    line-height: 60px;
+    color: #232d60;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+  .backgroundimg h5{
+    font-size: 18px;
+    padding-left: 10px;
+    color: #232d60;
+    letter-spacing: 2.5px;
+  }
+  .backgroundimg a{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: 70px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    border-radius: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #298d74 ;
+    color:#232d60;
+  }
+  .jumbotron h1{
+    padding-top: 10px;
+    font-size: 35px;
+    }
+  .jumbotron p {
+    line-height: 33px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    width: 100%;
+    padding-left:0px;
+    font-weight:lighter;
+}
+/* about-page */
+.section-heading h1 {
+  font-size: 40px;
+  line-height: inherit;
+}
+  /* log-in page */
+.bg{
+  height:120vh;
+}
+.form-conatiner h1{
+  font-size: 57px;
+  color:#298d74;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  font-weight:800;
+}
+.form-control{
+  letter-spacing: 1px;
+    font-size: 15px;
+}
+.form-check-label{
+  color: #000;
+  font-weight: 500;
+}
+.form-conatiner a {
+  margin-left: 15px;
+  font-size:12px ;
+}
+
+}
+
+
+/*---Firefox Bug Fix --*/
+/* .carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+} */
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+/* edit */
+.heder{
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 130px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    line-height: 90px;
+    color: #232d60;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+.cta-button:focus, .cta-button:hover, .cta-button.hover {
+  text-shadow: 0 3px 15px rgb(0 0 0 / 35%);
+  -webkit-transition: text-shadow .2s ease-in-out;
+  transition: text-shadow .2s ease-in-out;
+  -webkit-box-shadow: 0 0 0 2px #73c800, 0 14px 25px -2px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 0 2px #73c800, 0 14px 25px -2px rgb(0 0 0 / 20%);
+}
+
+
+
+
+/* FAQ */
+.faq-img{
+  width: fit-content;
+  height: 500px;
+  background-image: url(img/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px 0px ;
+  padding: 0px 0px ;
+}
+#accordionFlushExample{
+  max-width: 1000px;
+}
+
+
+/* log-in-after */
+.log-in-after{
+  height:100vh;
+  background-image: url(https://www.pointbleudesign.com/wp-content/uploads/2020/01/05_2020_THE_REALFOODING_MOVEMENT_BLOG_PB-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* healt-lifestyle4 */
+.color-section{
+  background:linear-gradient(135deg ,rgba(255, 255, 255, 0.904), #298d74,rgba(255, 255, 255, 0.904)) ;
+}
+
+
+
+/* bmi css */
+
+*   {
+box-sizing: border-box;
+}
+.decoration-one {
+background-color:rgb(249, 154, 154);
+margin: 0;
+border:0;
+border-radius: 12px;
+padding: 9px;
+font-weight: bold;
+}
+.decoration-one:hover {
+background-color:yellow;
+
+}
+a {
+text-decoration: none;
+color:black;
+}
+ 
